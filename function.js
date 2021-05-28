@@ -153,7 +153,7 @@ function car2_down()
 
 function car1_left()
 {
-    if(car1_x >=0)
+    if(car1_x > 0)
     {
         car1_x = car1_x - 10;
         console.log("When up arrow key is pressed, x = "+car1_x+" | y = "+car1_y);
