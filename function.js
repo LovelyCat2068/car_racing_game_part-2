@@ -131,8 +131,8 @@ function car1_down()
 {
     if(car1_y <= 500)
     {
-        car1_x = car1_x - 10;
-        console.log("When up arrow key is pressed, x = "+car1_x+" | y = "+car1_y);
+        car1_y = car1_y - 10;
+        console.log("When up arrow key is pressed, x = "+car1_y+" | y = "+car1_y);
         uploadBackground();
         uploadcar1();
         uploadcar2();
@@ -143,8 +143,8 @@ function car2_down()
 {
     if(car2_y <= 500)
     {
-        car2_x = car2_x - 10;
-        console.log("When up arrow key is pressed, x = "+car2_x+" | y = "+car2_y);
+        car2_y = car2_y - 10;
+        console.log("When up arrow key is pressed, x = "+car2_y+" | y = "+car2_y);
         uploadBackground();
         uploadcar1();
         uploadcar2();
